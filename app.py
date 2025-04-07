@@ -7,7 +7,7 @@ def lambda_handler(event, context):
     ImageId='ami-0614680123427b75e',
     InstanceType='t2.micro',
     KeyName='mykeymumbai',
-    MaxCount=1,
+    MaxCount=2,
     MinCount=1
 )
 
